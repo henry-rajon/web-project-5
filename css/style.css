@@ -9,6 +9,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 22px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
 }
 
 /* Banner CSS */
@@ -52,7 +56,7 @@ body{
     padding-right: 570px;
     margin-bottom: 40px;
 }
-.banner-content a {
+.btn{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
@@ -61,6 +65,40 @@ body{
     border-radius: 7px;
     transition: background-color .3s;
 }
-.banner-content a:hover{
+.btn:hover{
     background-color: #ff0772;
+}
+
+/* Video CSS */
+.video-area{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.video-content{
+    flex-basis: 55%;
+}
+.video-content h1 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-right: 85px;
+    margin-bottom: 20px;
+}
+.video-content p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-right: 70px;
+}
+.video-content a{}
+.video{
+    flex-basis: 35%;
+}
+iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
 }
