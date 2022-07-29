@@ -1,0 +1,66 @@
+/* Reset Code */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* Banner CSS */
+.banner-area{
+    background-image: url('../imgs/banner-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    margin-bottom: 80px;
+}
+.banner-area::before{
+    content: "";
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.75;
+    z-index: -1;
+}
+.banner-content{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.banner-content h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.banner-content span{
+    display: block;
+    color: #EF233C;
+}
+.banner-content p {
+    font-size: 16px;
+    padding-right: 570px;
+    margin-bottom: 40px;
+}
+.banner-content a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #EF233C;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: background-color .3s;
+}
+.banner-content a:hover{
+    background-color: #ff0772;
+}
